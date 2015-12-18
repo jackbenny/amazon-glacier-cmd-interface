@@ -159,6 +159,15 @@ the archive you want to retrieve:
     $ glacier-cmd download Test eBLl4DbMbZ4YMA7fD9cNacf2z1kGxpYxBqTV4qFVsuzgjuNlKSkWm2rFpw6Gq-bFT6Vt9cUZ1lGqSbtZjtbeh0jYn9tJC-MczQyA3tP6bezYUeN8dGGvqNqT3la79wjRRair1am1JA --outfile filename
     Read 1 GB of 10 GB (10%). Rate 3.05 MB/s, average 2.71 MB/s, ETA 1:00:00.   
 
+    $ glacier-cmd getarchive Test pgI5LqqR5q-_djhk1hGkpo6zzlF5KbzUvwTtz__vTnHMx7ygwZbBHk4eT5tvazKazw4APdCJf5ycuMgBPVbcx9_ciboPkj-LUcdbIKaFpaSQM5kEy9fwvR5JDvI282aOXz-BNWmStQ
+    +-----------+----------------------------------------------------------------------------------------------+
+    |   Header  |                                            Value                                             |
+    +-----------+----------------------------------------------------------------------------------------------+
+    |   JobId   | oKm4GrXxxhLD7dE1NLKtQQ7zqbFL5IvIar9uKkq5JUI_qruB91YivmqHOOSdCzdeABU1hCjVtW1KCdWYyvdbYw7fwxmF |
+    | RequestId |                       gKAJeSXKaxDa3hRV9xYSuIZjp2JPWnP70DODY-KBAcJjPiA                        |
+    +-----------+----------------------------------------------------------------------------------------------+
+
+
 To remove uploaded archive use `rmarchive`. You can currently delete only by
 archive id (notice the use of `--` when the archive ID starts with a dash):
 
